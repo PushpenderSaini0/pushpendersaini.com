@@ -1,0 +1,135 @@
+ .container-fluid {
+  padding: 0;
+  overflow-x: hidden;
+}
+
+p {
+	font-size: 18px;
+}
+
+#hello-text {
+	font-weight: bold;
+	margin-left: 5%;
+}
+#hello-text-sub {
+	margin-left: 5%;
+}
+#hello-text-sub-sub {
+	margin-left: 5%;
+}
+#hello-text-sub-sub-sub {
+	margin-left: 5%;
+}
+
+ .navbar {
+  border: none;
+  background-color: #ddecdf; 
+  padding:  10px;
+}
+
+.mob li{
+	float: left;
+	list-style-type: none;
+	font-size: 17px !important;
+	color: black !important;
+}
+
+.navbar-brand {
+	color: black !important;
+	font-size: 40px !important;
+}
+.navbar-brand span{
+	color: magenta;
+}
+
+.navbar-right a{
+	font-size: 17px !important;
+	color: black !important;
+}
+
+
+body { 
+	padding-top: 70px;
+	
+}
+
+#intro {
+	padding: 30px;
+	background-color: #ddecdf; 
+	padding-bottom: 110px;
+	
+}
+
+
+.side-text{
+	font-style: bold;
+	font-family: sans-serif;
+	color:black;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.side-text h1{
+	
+	font-size: 50px;
+}
+
+.side-text h2{
+	
+	font-size: 45px;
+}
+@media (min-width: 700px) {
+#aboutme, #projects {
+	padding: 70px;
+}
+}
+
+@media (max-width: 700px) {
+#aboutme, #projects, {
+	padding: 10px;
+}
+#intro {
+	height: 850px;
+}
+}
+
+
+#projects {
+	background-color: #223344;
+	color: white;
+}
+
+#projects a {
+	text-decoration: none;
+	color: lightblue;
+}
+
+
+.small-img-space {
+	height: 100%;
+	border-radius: 30px;
+	width: 100%;
+	padding: 10px;
+}
+
+#contactme {
+	color: #777777;
+}
+@media (min-width: 900px) {
+	.text-middle {
+		display: flex;
+	  justify-content: center;
+	  align-items: center; 
+	}
+	
+}
+
+
+
+.social-links {
+	font-size: 30px;
+	text-align: center;
+	padding-top: 100px;
+	
+}
+
